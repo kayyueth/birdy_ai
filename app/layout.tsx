@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <SidebarProvider>
-          <div className='flex min-h-screen'>
+          <div className='flex min-h-screen w-full'>
             <AppSidebar />
 
             <div className='relative mb-2 ml-2 mr-2 mt-10 w-full flex-1'>
